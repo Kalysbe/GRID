@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+   background:#E5E5E5;
+}
+.arrow {
+    width: 9px;
+    height: 4.5px;
+    border: 1,5px solid #2C384F;
+}
+header {
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    height: 10vh;
+    width: 100%;
+    box-shadow: 0px 3px 8px 0px #99A6BF1F;
+}
+
+.header-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+.header-left input {
+    width: 340px;
+    height: 20px;
+    background: #F5F7FA;
+    border: none;
+    margin-left: 5vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 15vh;
+}
+.header-logo h1 {
+    font-size: 20px;
+    line-height: 24.2;
+    font-weight: 600;
+    color:#2C384F;
+}
+
+.header-logo img {
+    width: 33px;height: 33px;
+    margin:10px;
+}
+
+.header-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.avatar {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 30%;
+}
+
+nav {
+    background: #f7f3f3;
+    display: inline-block;
+    width: 15%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.nav-container {
+    width: 85%;
+}
+.main-nav {
+    background: #784FFE;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-arrow {
+    margin-left: 20%;
+   
+}
+
+.main-nav a {
+    display: flex;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+}
+.main-nav img {
+    margin-right: 10px;
+}
+
+.nav-list {
+    width: 100%;
+}
+
+.nav-list a {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color:#2C384F;
+}
+.nav-list a:hover {
+    background: #784FFE1F 12%;
+
+}
+
+.nav-list img {
+    margin: 10px;
+}
+
+
+aside {
+   margin-top: 5vh;
+    margin-left: 5vh;
+    display: grid;
+    width: 80%;
+    grid-gap: 1em;
+    grid-template-columns: 1;
+    grid-template-rows: 0.2fr 1.2fr 3fr;
+}
+aside div {
+    border-radius: 8px;
+}
+.heading-aside {
+    display: flex;
+    justify-content: space-between;
+}
+.heading-aside p {
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+margin: 0px;
+}
+.heading-aside button {
+    background: #724BF2;
+    padding: 10px;
+    border:none;
+    border-radius: 12px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.first-aside {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.second-aside {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1.3fr;
+    grid-template-areas: "portfol assets"
+                         "transac assets"                        
+    ;
+}
+.worth {
+    background: #FFFFFF;
+    display: flex;
+    padding: 3vh;
+    justify-content: space-between;
+}
+.worth-image {
+    display: flex;
+    align-items: flex-end;
+
+}
+.moneys {
+    display: flex;
+}
+.main-money {
+    color:#2C384F;
+    font-size: 36px; 
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+.status-money {
+    color:#20BF6B;
+    font-size: 12px;
+    line-height: 14.52px;
+}
+.income {
+    background: #FFFFFF;
+}
+
+.expenses {
+    background: #FFFFFF;
+}
+
+.portfolio {
+    background: #FFFFFF;
+    grid-area: portfol;
+}
+.assets {
+    background: #FFFFFF;
+    grid-area: assets;
+}
+.transactions {
+    background: #FFFFFF;
+    grid-area: transac;
+}
+.navaside {
+    display: flex;
+}
+
